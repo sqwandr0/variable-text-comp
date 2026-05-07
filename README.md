@@ -1,8 +1,10 @@
 # Variable Text COMP
 
-TouchDesigner component for rendering variable-font text through WebRender TOP.
+TouchDesigner TOX wrapper/port of React Bits `Text Pressure`.
 
-![Variable Text COMP preview](assets/variable_text_comp_preview.png)
+The original `Text Pressure` component/code is from React Bits, created by David Haz (`@davidhdev`). This repository only packages/adapts that idea and implementation style into a TouchDesigner `.tox` component using WebRender TOP.
+
+![Variable Text COMP preview](assets/variable_text_comp_preview.gif)
 
 ## Download
 
@@ -75,12 +77,24 @@ GRAD  400-1000
 wght  1-1000
 ```
 
-## Known Issue in 1.0.0
+## Known Issue in 1.0.0 Release Asset
 
 Dragging sliders rapidly can produce visual flicker in WebRender. This release preserves the current component state before the flicker fix.
 
-## Credit
+The `main` branch includes a follow-up fix that throttles live parameter updates to one WebRender JavaScript push per frame.
 
-Concept and interaction reference: React Bits `Text Pressure` by React Bits.
+## Attribution
 
-Reference URL: https://reactbits.dev/text-animations/text-pressure?text=hello01&italic=false&width=false
+Original source/inspiration:
+
+- React Bits `Text Pressure`
+- Creator: David Haz (`@davidhdev`)
+- React Bits: https://reactbits.dev
+- Component reference: https://reactbits.dev/text-animations/text-pressure?text=hello01&italic=false&width=false
+- Source project: https://github.com/DavidHDev/react-bits
+
+This project is not the original React component. It is a TouchDesigner `.tox` wrapper/port made for TD workflows.
+
+## License Notice
+
+React Bits is licensed under MIT + Commons Clause. The original component/code remains credited to David Haz / React Bits. This repository distributes a TouchDesigner wrapper/port and should not be represented as the original React Bits component.
