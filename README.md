@@ -2,7 +2,7 @@
 
 TouchDesigner component for rendering variable-font text through WebRender TOP.
 
-![Variable Text COMP preview](assets/variable_text_comp_preview.png)
+![Variable Text COMP preview](assets/variable_text_comp_preview.gif)
 
 ## Download
 
