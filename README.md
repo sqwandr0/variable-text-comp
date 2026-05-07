@@ -75,9 +75,11 @@ GRAD  400-1000
 wght  1-1000
 ```
 
-## Known Issue in 1.0.0
+## Known Issue in 1.0.0 Release Asset
 
 Dragging sliders rapidly can produce visual flicker in WebRender. This release preserves the current component state before the flicker fix.
+
+The `main` branch includes a follow-up fix that throttles live parameter updates to one WebRender JavaScript push per frame.
 
 ## Credit
 
