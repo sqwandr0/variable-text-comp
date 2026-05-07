@@ -1,21 +1,19 @@
-MIT License
+Attribution and License Notice
 
-Copyright (c) 2026 Sunqiwen
+This repository contains a TouchDesigner .tox wrapper/port of React Bits
+Text Pressure.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Original component/code:
+- React Bits Text Pressure
+- Creator: David Haz (@davidhdev)
+- Website: https://reactbits.dev
+- Source project: https://github.com/DavidHDev/react-bits
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+React Bits is licensed under MIT + Commons Clause.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Copyright for the original React Bits component/code remains with David Haz /
+React Bits. This repository only packages/adapts the work into a TouchDesigner
+.tox component for TouchDesigner workflows.
+
+Do not represent this repository as the original React Bits project or as an
+independent reimplementation authored from scratch.
